@@ -1,7 +1,7 @@
-# pyKumaAPI
+# pykumaapi2
 
-[![PyPI version](https://badge.fury.io/py/pyKumaAPI.svg)](https://badge.fury.io/py/pyKumaAPI)
-[![Python Versions](https://img.shields.io/pypi/pyversions/pyKumaAPI.svg)](https://pypi.org/project/pyKumaAPI/)
+[![PyPI version](https://badge.fury.io/py/pykumaapi2.svg)](https://badge.fury.io/py/pykumaapi2)
+[![Python Versions](https://img.shields.io/pypi/pyversions/pykumaapi2.svg)](https://pypi.org/project/pykumaapi2/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A comprehensive Python client for Uptime Kuma's REST and Socket.io APIs. This library provides both synchronous REST operations and asynchronous real-time monitoring capabilities.
@@ -24,14 +24,14 @@ Uptime Kuma's API is primarily designed for the application's own use and is not
 ## Installation
 
 ```bash
-pip install pyKumaAPI
+pip install pykumaapi2
 ```
 
 Or install from source:
 
 ```bash
-git clone https://github.com/emadomedher/pyKumaAPI.git
-cd pyKumaAPI
+git clone https://github.com/emadomedher/pykumaapi2.git
+cd pykumaapi2
 pip install -r requirements.txt
 pip install .
 ```
@@ -294,8 +294,8 @@ See the `examples/` directory for complete usage examples:
 ### Setup Development Environment
 
 ```bash
-git clone https://github.com/emadomedher/pyKumaAPI.git
-cd pyKumaAPI
+git clone https://github.com/emadomedher/pykumaapi2.git
+cd pykumaapi2
 pip install -e ".[dev]"
 ```
 
@@ -336,9 +336,9 @@ This library is not officially affiliated with or endorsed by the Uptime Kuma pr
 
 ## Support
 
-- 📖 [Documentation](https://github.com/emadomedher/pyKumaAPI#readme)
-- 🐛 [Bug Reports](https://github.com/emadomedher/pyKumaAPI/issues)
-- 💬 [Discussions](https://github.com/emadomedher/pyKumaAPI/discussions)
+- 📖 [Documentation](https://github.com/emadomedher/pykumaapi2#readme)
+- 🐛 [Bug Reports](https://github.com/emadomedher/pykumaapi2/issues)
+- 💬 [Discussions](https://github.com/emadomedher/pykumaapi2/discussions)
 
 ## Changelog
 

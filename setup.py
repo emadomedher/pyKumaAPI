@@ -1,5 +1,5 @@
 """
-Setup script for pyKumaAPI package.
+Setup script for pykumaapi2 package.
 """
 
 from setuptools import setup, find_packages
@@ -11,14 +11,14 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
     requirements = [line.strip() for line in fh if line.strip() and not line.startswith("#")]
 
 setup(
-    name="pyKumaAPI",
+    name="pykumaapi2",
     version="0.1.0",
     author="Emad O. Medher",
     author_email="lsumedher@gmail.com",
     description="Python client for Uptime Kuma REST and Socket.io APIs",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/emadomedher/pyKumaAPI",
+    url="https://github.com/emadomedher/pykumaapi2",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -44,10 +44,10 @@ setup(
             "mypy>=0.950",
         ],
     },
-    keywords="uptime-kuma monitoring api client socket.io rest pyKumaAPI",
+    keywords="uptime-kuma monitoring api client socket.io rest pykumaapi2",
     project_urls={
-        "Bug Reports": "https://github.com/emadomedher/pyKumaAPI/issues",
-        "Source": "https://github.com/emadomedher/pyKumaAPI",
-        "Documentation": "https://github.com/emadomedher/pyKumaAPI#readme",
+        "Bug Reports": "https://github.com/emadomedher/pykumaapi2/issues",
+        "Source": "https://github.com/emadomedher/pykumaapi2",
+        "Documentation": "https://github.com/emadomedher/pykumaapi2#readme",
     },
 )
