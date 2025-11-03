@@ -30,8 +30,8 @@ pip install pykumaapi2
 Or install from source:
 
 ```bash
-git clone https://github.com/emadomedher/pykumaapi2.git
-cd pykumaapi2
+git clone https://github.com/emadomedher/pyKumaAPI.git
+cd pykumaapi
 pip install -r requirements.txt
 pip install .
 ```
@@ -294,8 +294,8 @@ See the `examples/` directory for complete usage examples:
 ### Setup Development Environment
 
 ```bash
-git clone https://github.com/emadomedher/pykumaapi2.git
-cd pykumaapi2
+git clone https://github.com/emadomedher/pyKumaAPI.git
+cd pykumaapi
 pip install -e ".[dev]"
 ```
 
@@ -336,9 +336,9 @@ This library is not officially affiliated with or endorsed by the Uptime Kuma pr
 
 ## Support
 
-- 📖 [Documentation](https://github.com/emadomedher/pykumaapi2#readme)
-- 🐛 [Bug Reports](https://github.com/emadomedher/pykumaapi2/issues)
-- 💬 [Discussions](https://github.com/emadomedher/pykumaapi2/discussions)
+- 📖 [Documentation](https://github.com/emadomedher/pyKumaAPI#readme)
+- 🐛 [Bug Reports](https://github.com/emadomedher/pyKumaAPI/issues)
+- 💬 [Discussions](https://github.com/emadomedher/pyKumaAPI/discussions)
 
 ## Changelog
 

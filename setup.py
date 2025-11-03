@@ -12,13 +12,13 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 
 setup(
     name="pykumaapi2",
-    version="0.1.0",
+    version="0.1.1",
     author="Emad O. Medher",
     author_email="lsumedher@gmail.com",
     description="Python client for Uptime Kuma REST and Socket.io APIs",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/emadomedher/pykumaapi2",
+    url="https://github.com/emadomedher/pyKumaAPI",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -46,8 +46,8 @@ setup(
     },
     keywords="uptime-kuma monitoring api client socket.io rest pykumaapi2",
     project_urls={
-        "Bug Reports": "https://github.com/emadomedher/pykumaapi2/issues",
-        "Source": "https://github.com/emadomedher/pykumaapi2",
-        "Documentation": "https://github.com/emadomedher/pykumaapi2#readme",
+        "Bug Reports": "https://github.com/emadomedher/pyKumaAPI/issues",
+        "Source": "https://github.com/emadomedher/pyKumaAPI",
+        "Documentation": "https://github.com/emadomedher/pyKumaAPI#readme",
     },
 )
